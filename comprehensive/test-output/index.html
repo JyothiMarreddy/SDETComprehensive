@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\renus\AppData\Local\Temp\testng-eclipse-213469052\testng-customsuite.xml</span>
+                    <span>C:\Users\renus\AppData\Local\Temp\testng-eclipse-331107202\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="comprehensive.NoCodeAutifySwitchWindowTest" class="method navigator-link" hash-for-method="verifyWindowSwitchAndTitle">verifyWindowSwitchAndTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="restAssuredCapitalAPICode.CapitalAPI" class="method navigator-link" hash-for-method="negativeTest_InvalidCapital">negativeTest_InvalidCapital</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="restAssuredCapitalAPICode.CapitalAPI" class="method navigator-link" hash-for-method="positiveTest_Tallinn">positiveTest_Tallinn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +126,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">comprehensive.NoCodeAutifySwitchWindowTest</span>
+              <span class="class-name">restAssuredCapitalAPICode.CapitalAPI</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyWindowSwitchAndTitle">
-                  </a> <!-- verifyWindowSwitchAndTitle -->
-                  <span class="method-name">verifyWindowSwitchAndTitle</span>
+                  <a name="negativeTest_InvalidCapital">
+                  </a> <!-- negativeTest_InvalidCapital -->
+                  <span class="method-name">negativeTest_InvalidCapital</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTest_Tallinn">
+                  </a> <!-- positiveTest_Tallinn -->
+                  <span class="method-name">positiveTest_Tallinn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\renus\AppData\Local\Temp\testng-eclipse-213469052\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\renus\AppData\Local\Temp\testng-eclipse-331107202\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +157,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;comprehensive.NoCodeAutifySwitchWindowTest&quot;/&gt;
+      &lt;class name=&quot;restAssuredCapitalAPICode.CapitalAPI&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -169,14 +181,6 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">windows</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">verifyWindowSwitchAndTitle</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -193,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyWindowSwitchAndTitle')
-data.setCell(0, 2, 'comprehensive.NoCodeAutifySwitchWindowTest')
-data.setCell(0, 3, 11330);
+data.setCell(0, 1, 'negativeTest_InvalidCapital')
+data.setCell(0, 2, 'restAssuredCapitalAPICode.CapitalAPI')
+data.setCell(0, 3, 3269);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'positiveTest_Tallinn')
+data.setCell(1, 2, 'restAssuredCapitalAPICode.CapitalAPI')
+data.setCell(1, 3, 874);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -228,15 +236,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">comprehensive.NoCodeAutifySwitchWindowTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">restAssuredCapitalAPICode.CapitalAPI</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">verifyWindowSwitchAndTitle</span>
+                <span class="method-name">negativeTest_InvalidCapital</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11333 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">positiveTest_Tallinn</span>
+                <span class="method-start">3273 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

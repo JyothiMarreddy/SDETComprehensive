@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T14:34:26 IST" name="Default suite" finished-at="2025-07-09T14:34:38 IST" duration-ms="11527">
+  <suite started-at="2025-07-09T17:27:18 IST" name="Default suite" finished-at="2025-07-09T17:27:22 IST" duration-ms="4209">
     <groups>
-      <group name="windows">
-        <method signature="NoCodeAutifySwitchWindowTest.verifyWindowSwitchAndTitle()[pri:0, instance:comprehensive.NoCodeAutifySwitchWindowTest@1d9b7cce]" name="verifyWindowSwitchAndTitle" class="comprehensive.NoCodeAutifySwitchWindowTest"/>
-      </group> <!-- windows -->
     </groups>
-    <test started-at="2025-07-09T14:34:26 IST" name="Default test" finished-at="2025-07-09T14:34:38 IST" duration-ms="11527">
-      <class name="comprehensive.NoCodeAutifySwitchWindowTest">
-        <test-method signature="verifyWindowSwitchAndTitle()[pri:0, instance:comprehensive.NoCodeAutifySwitchWindowTest@1d9b7cce]" started-at="2025-07-09T14:34:27 IST" name="verifyWindowSwitchAndTitle" finished-at="2025-07-09T14:34:38 IST" duration-ms="11330" status="PASS">
+    <test started-at="2025-07-09T17:27:18 IST" name="Default test" finished-at="2025-07-09T17:27:22 IST" duration-ms="4209">
+      <class name="restAssuredCapitalAPICode.CapitalAPI">
+        <test-method signature="negativeTest_InvalidCapital()[pri:0, instance:restAssuredCapitalAPICode.CapitalAPI@7fa98a66]" started-at="2025-07-09T17:27:18 IST" name="negativeTest_InvalidCapital" finished-at="2025-07-09T17:27:21 IST" duration-ms="3269" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWindowSwitchAndTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:comprehensive.NoCodeAutifySwitchWindowTest@1d9b7cce]" started-at="2025-07-09T14:34:38 IST" name="tearDown" finished-at="2025-07-09T14:34:38 IST" duration-ms="155" status="PASS">
+        </test-method> <!-- negativeTest_InvalidCapital -->
+        <test-method signature="positiveTest_Tallinn()[pri:0, instance:restAssuredCapitalAPICode.CapitalAPI@7fa98a66]" started-at="2025-07-09T17:27:21 IST" name="positiveTest_Tallinn" finished-at="2025-07-09T17:27:22 IST" duration-ms="874" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- comprehensive.NoCodeAutifySwitchWindowTest -->
+        </test-method> <!-- positiveTest_Tallinn -->
+      </class> <!-- restAssuredCapitalAPICode.CapitalAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
